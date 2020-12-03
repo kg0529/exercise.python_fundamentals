@@ -10,7 +10,7 @@ class Calculator(object):
         return a * b
 
     def divide(self, a, b):
-        if b == 0
+        if b == 0:
             return ZeroDivisionError
         else:
             return a / b
