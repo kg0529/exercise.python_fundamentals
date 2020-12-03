@@ -5,7 +5,7 @@ class StringManipulator(object):
         return temp_hello
 
     def concatenate(self, value_to_be_added_to, value_to_add):
-        return value_to_be_added_to + value_to_add
+         return str(value_to_be_added_to) + str(value_to_add)
 
     def substring_inclusive(self, string_to_fetch_from, starting_index, ending_index):
         temp_inclusive = string_to_fetch_from[starting_index:ending_index+1]
