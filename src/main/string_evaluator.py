@@ -1,7 +1,8 @@
 # Created by Leon Hunter at 3:57 PM 10/23/2020
 class StringManipulator(object):
     def get_hello_world(self):
-        return "Hello World"
+        temp_hello = "Hello World"
+        return temp_hello
 
     def concatenate(self, value_to_be_added_to, value_to_add):
         return value_to_be_added_to + value_to_add
@@ -27,4 +28,4 @@ class StringManipulator(object):
         return temp_string_second[1]
 
     def reverse(self, string_to_be_reversed):
-        return None # TODO - Implement solution
+        return string_to_be_reversed[::-1]
