@@ -8,10 +8,12 @@ class StringManipulator(object):
         return value_to_be_added_to + value_to_add
 
     def substring_inclusive(self, string_to_fetch_from, starting_index, ending_index):
-        return string_to_fetch_from[starting_index:ending_index+1]
+        temp_inclusive = string_to_fetch_from[starting_index:ending_index + 1]
+        return temp_inclusive
 
     def substring_exclusive(self, string_to_fetch_from, starting_index, ending_index):
-        return string_to_fetch_from[starting_index+1:ending_index]
+        temp_exclusive = string_to_fetch_from[starting_index+1:ending_index]
+        return temp_exclusive
 
     def compare(self, first_value, second_value):
         return first_value == second_value
