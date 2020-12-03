@@ -16,13 +16,15 @@ class StringManipulator(object):
         return first_value == second_value
 
     def get_middle_character(self, string_to_fetch_from):
-        return None # TODO - Implement solution
+        return
 
     def get_first_word(self, string_to_fetch_from):
-        return None # TODO - Implement solution
+        temp_string_first = string_to_fetch_from.split(" ")
+        return temp_string[0]
 
     def get_second_word(self, string_to_fetch_from):
-        return None # TODO - Implement solution
+        temp_string_second = string_to_fetch_from.split(" ")
+        return temp_string[2]
 
     def reverse(self, string_to_be_reversed):
         return None # TODO - Implement solution
