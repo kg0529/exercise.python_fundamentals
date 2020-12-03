@@ -20,11 +20,11 @@ class StringManipulator(object):
 
     def get_first_word(self, string_to_fetch_from):
         temp_string_first = string_to_fetch_from.split(" ")
-        return temp_string[0]
+        return temp_string_first[0]
 
     def get_second_word(self, string_to_fetch_from):
         temp_string_second = string_to_fetch_from.split(" ")
-        return temp_string[2]
+        return temp_string_second[1]
 
     def reverse(self, string_to_be_reversed):
         return None # TODO - Implement solution
