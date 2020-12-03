@@ -1,3 +1,3 @@
 language: python
-
-python -m unittest discover -s ./src/test/ -p '*_test.py'
+script:
+   python -m unittest discover -s ./src/test/ -p '*_test.py'
