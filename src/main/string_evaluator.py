@@ -1,7 +1,7 @@
 # Created by Leon Hunter at 3:57 PM 10/23/2020
 class StringManipulator(object):
     def get_hello_world(self):
-        temp_hello = "Hello World"
+        temp_hello = ["Hello World"]
         return temp_hello
 
     def concatenate(self, value_to_be_added_to, value_to_add):
@@ -19,7 +19,7 @@ class StringManipulator(object):
         return first_value == second_value
 
     def get_middle_character(self, string_to_fetch_from):
-        return
+        return None
 
     def get_first_word(self, string_to_fetch_from):
         temp_string_first = string_to_fetch_from.split(" ")
