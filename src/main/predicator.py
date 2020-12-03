@@ -11,6 +11,7 @@ class Predicator(object):
             return True
         else:
             return False
+
     def is_less_than_4(self, some_value):
         if some_value < 4:
             return True
