@@ -11,7 +11,7 @@ class StringManipulator(object):
         return string_to_fetch_from[starting_index:ending_index + 1]
 
     def substring_exclusive(self, string_to_fetch_from, starting_index, ending_index):
-        return string_to_fetch_from[starting_index:ending_index]
+        return string_to_fetch_from[starting_index+1:ending_index]
 
     def compare(self, first_value, second_value):
         return first_value == second_value
