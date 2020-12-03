@@ -19,7 +19,7 @@ class StringManipulator(object):
         return first_value == second_value
 
     def get_middle_character(self, string_to_fetch_from):
-        mid_index = len(string_to_fetch_from)
+        mid_index = len(string_to_fetch_from) / 2 - 1
         return string_to_fetch_from[mid_index]
 
     def get_first_word(self, string_to_fetch_from):
