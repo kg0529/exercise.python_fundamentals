@@ -17,11 +17,11 @@ class StringManipulator(object):
 
     def compare(self, first_value, second_value):
         if first_value == None:
-            return "0" == str(second_value)
+            return 0 == second_value
         elif first_value == True:
-            return "1" == str(second_value)
+            return True == second_value
         elif first_value == False:
-            return "0" == str(second_value)
+            return False == second_value
         else:
             return str(first_value) == str(second_value)
 
